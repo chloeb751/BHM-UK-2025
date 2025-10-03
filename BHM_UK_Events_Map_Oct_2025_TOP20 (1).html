@@ -1,0 +1,1391 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_da2b00400b4a31cf7b217d3fcaa5b4e0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_da2b00400b4a31cf7b217d3fcaa5b4e0" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_da2b00400b4a31cf7b217d3fcaa5b4e0 = L.map(
+                "map_da2b00400b4a31cf7b217d3fcaa5b4e0",
+                {
+                    center: [54.5, -3.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_cd6691f8159ea10fa53074482b2c4615 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_da2b00400b4a31cf7b217d3fcaa5b4e0);
+        
+    
+            var marker_6fceb0fdb7910a5e87235bd28d58b144 = L.marker(
+                [51.4626, -0.1149],
+                {}
+            ).addTo(map_da2b00400b4a31cf7b217d3fcaa5b4e0);
+        
+    
+        var popup_830b9c81afadf4bddb8ad48016fb558a = L.popup({"maxWidth": 350});
+
+        
+            var html_782aeca67ab797ee0a00bf1328d2660d = $(`<div id="html_782aeca67ab797ee0a00bf1328d2660d" style="width: 100.0%; height: 100.0%;">     <b>Black Culture Market</b><br/>     <i>The Department Store, Brixton, London</i><br/>     <span>4–5 Oct 2025</span><br/>     <a href="https://secretldn.com/black-history-month-london-2025-october/" target="_blank">Event details / source</a>     </div>`)[0];
+            popup_830b9c81afadf4bddb8ad48016fb558a.setContent(html_782aeca67ab797ee0a00bf1328d2660d);
+        
+
+        marker_6fceb0fdb7910a5e87235bd28d58b144.bindPopup(popup_830b9c81afadf4bddb8ad48016fb558a)
+        ;
+
+        
+    
+    
+            marker_6fceb0fdb7910a5e87235bd28d58b144.bindTooltip(
+                `<div>
+                     London: Black Culture Market
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d03d09a6799458fb1e69dbc82a3c4897 = L.marker(
+                [51.5153, -0.1303],
+                {}
+            ).addTo(map_da2b00400b4a31cf7b217d3fcaa5b4e0);
+        
+    
+        var popup_e915cf7d358e718562ab47de983434cf = L.popup({"maxWidth": 350});
+
+        
+            var html_6ff353616b274bb444c3e348bf6ce893 = $(`<div id="html_6ff353616b274bb444c3e348bf6ce893" style="width: 100.0%; height: 100.0%;">     <b>‘Black and British’ month‑long exhibition</b><br/>     <i>Outernet London, London</i><br/>     <span>6–31 Oct 2025</span><br/>     <a href="https://secretldn.com/black-history-month-london-2025-october/" target="_blank">Event details / source</a>     </div>`)[0];
+            popup_e915cf7d358e718562ab47de983434cf.setContent(html_6ff353616b274bb444c3e348bf6ce893);
+        
+
+        marker_d03d09a6799458fb1e69dbc82a3c4897.bindPopup(popup_e915cf7d358e718562ab47de983434cf)
+        ;
+
+        
+    
+    
+            marker_d03d09a6799458fb1e69dbc82a3c4897.bindTooltip(
+                `<div>
+                     London: ‘Black and British’ month‑long exhibition
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a773e9bd3609fc887a227ada3f8668c4 = L.marker(
+                [51.4826, -0.0077],
+                {}
+            ).addTo(map_da2b00400b4a31cf7b217d3fcaa5b4e0);
+        
+    
+        var popup_e8dce830fe5afd72efa403de2906a1bb = L.popup({"maxWidth": 350});
+
+        
+            var html_cab93112df14d71694d4ada990ead3dc = $(`<div id="html_cab93112df14d71694d4ada990ead3dc" style="width: 100.0%; height: 100.0%;">     <b>CORNWALLIS CLOTH installation</b><br/>     <i>Old Royal Naval College, Greenwich, London</i><br/>     <span>11 Oct 2025</span><br/>     <a href="https://secretldn.com/black-history-month-london-2025-october/" target="_blank">Event details / source</a>     </div>`)[0];
+            popup_e8dce830fe5afd72efa403de2906a1bb.setContent(html_cab93112df14d71694d4ada990ead3dc);
+        
+
+        marker_a773e9bd3609fc887a227ada3f8668c4.bindPopup(popup_e8dce830fe5afd72efa403de2906a1bb)
+        ;
+
+        
+    
+    
+            marker_a773e9bd3609fc887a227ada3f8668c4.bindTooltip(
+                `<div>
+                     London: CORNWALLIS CLOTH installation
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e25dabdb5a70648a94608cae79aac01a = L.marker(
+                [51.5074, -0.1278],
+                {}
+            ).addTo(map_da2b00400b4a31cf7b217d3fcaa5b4e0);
+        
+    
+        var popup_02a63ed789b383f7071b3195b3f08540 = L.popup({"maxWidth": 350});
+
+        
+            var html_deab0aae14b73cde096a8369a2ad2974 = $(`<div id="html_deab0aae14b73cde096a8369a2ad2974" style="width: 100.0%; height: 100.0%;">     <b>Black History Walks (multiple tours)</b><br/>     <i>Multiple neighbourhoods, London</i><br/>     <span>Various in Oct 2025</span><br/>     <a href="https://secretldn.com/black-history-month-london-2025-october/" target="_blank">Event details / source</a>     </div>`)[0];
+            popup_02a63ed789b383f7071b3195b3f08540.setContent(html_deab0aae14b73cde096a8369a2ad2974);
+        
+
+        marker_e25dabdb5a70648a94608cae79aac01a.bindPopup(popup_02a63ed789b383f7071b3195b3f08540)
+        ;
+
+        
+    
+    
+            marker_e25dabdb5a70648a94608cae79aac01a.bindTooltip(
+                `<div>
+                     London: Black History Walks (multiple tours)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9c64816f318291e7b5bf5371e85be330 = L.marker(
+                [51.4927, -0.2339],
+                {}
+            ).addTo(map_da2b00400b4a31cf7b217d3fcaa5b4e0);
+        
+    
+        var popup_d7467936b69ee641cf7035ce1d9fa959 = L.popup({"maxWidth": 350});
+
+        
+            var html_9678c66b1770a1c96979d2c19d9b759d = $(`<div id="html_9678c66b1770a1c96979d2c19d9b759d" style="width: 100.0%; height: 100.0%;">     <b>H&F Black History Month programme</b><br/>     <i>Hammersmith & Fulham (various), London</i><br/>     <span>1–31 Oct 2025</span><br/>     <a href="https://www.lbhf.gov.uk/culture-and-events/black-history-month-october-2025" target="_blank">Event details / source</a>     </div>`)[0];
+            popup_d7467936b69ee641cf7035ce1d9fa959.setContent(html_9678c66b1770a1c96979d2c19d9b759d);
+        
+
+        marker_9c64816f318291e7b5bf5371e85be330.bindPopup(popup_d7467936b69ee641cf7035ce1d9fa959)
+        ;
+
+        
+    
+    
+            marker_9c64816f318291e7b5bf5371e85be330.bindTooltip(
+                `<div>
+                     London: H&F Black History Month programme
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c9c5f878e71f0dfa9fdd48e5ce96bd59 = L.marker(
+                [51.52, -0.029],
+                {}
+            ).addTo(map_da2b00400b4a31cf7b217d3fcaa5b4e0);
+        
+    
+        var popup_aebcb493232ad2aa40dbd510efbe108a = L.popup({"maxWidth": 350});
+
+        
+            var html_b009577020dfafba9a8a352c9403a70a = $(`<div id="html_b009577020dfafba9a8a352c9403a70a" style="width: 100.0%; height: 100.0%;">     <b>Tower Hamlets BHM: Standing Firm in Power & Pride</b><br/>     <i>Tower Hamlets (various), London</i><br/>     <span>1–31 Oct 2025</span><br/>     <a href="https://www.towerhamlets.gov.uk/News_events/2025/October/Standing-Firm-in-Power-and-Pride-Black-History-Month-2025.aspx" target="_blank">Event details / source</a>     </div>`)[0];
+            popup_aebcb493232ad2aa40dbd510efbe108a.setContent(html_b009577020dfafba9a8a352c9403a70a);
+        
+
+        marker_c9c5f878e71f0dfa9fdd48e5ce96bd59.bindPopup(popup_aebcb493232ad2aa40dbd510efbe108a)
+        ;
+
+        
+    
+    
+            marker_c9c5f878e71f0dfa9fdd48e5ce96bd59.bindTooltip(
+                `<div>
+                     London: Tower Hamlets BHM: Standing Firm in Power & Pride
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dc760f587022ed1027be29545c69511e = L.marker(
+                [53.4775, -2.254],
+                {}
+            ).addTo(map_da2b00400b4a31cf7b217d3fcaa5b4e0);
+        
+    
+        var popup_a3bb1fafb53aaed991734ab872be3c2f = L.popup({"maxWidth": 350});
+
+        
+            var html_4f28c4e07d202953835bcfbb1bc97ad0 = $(`<div id="html_4f28c4e07d202953835bcfbb1bc97ad0" style="width: 100.0%; height: 100.0%;">     <b>Black History Month at Aviva Studios</b><br/>     <i>Aviva Studios, Manchester</i><br/>     <span>1–31 Oct 2025</span><br/>     <a href="https://factoryinternational.org/whats-on/black-history-month-25/" target="_blank">Event details / source</a>     </div>`)[0];
+            popup_a3bb1fafb53aaed991734ab872be3c2f.setContent(html_4f28c4e07d202953835bcfbb1bc97ad0);
+        
+
+        marker_dc760f587022ed1027be29545c69511e.bindPopup(popup_a3bb1fafb53aaed991734ab872be3c2f)
+        ;
+
+        
+    
+    
+            marker_dc760f587022ed1027be29545c69511e.bindTooltip(
+                `<div>
+                     Manchester: Black History Month at Aviva Studios
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_df265c9829c4f2424e505671bbc51a35 = L.marker(
+                [53.4775, -2.254],
+                {}
+            ).addTo(map_da2b00400b4a31cf7b217d3fcaa5b4e0);
+        
+    
+        var popup_a0ccc2bb67b0e79f15e6317b6fdcc006 = L.popup({"maxWidth": 350});
+
+        
+            var html_8abd816d4cb5ee6e90f2768f2af1480f = $(`<div id="html_8abd816d4cb5ee6e90f2768f2af1480f" style="width: 100.0%; height: 100.0%;">     <b>Black Creative Trailblazers Showcase</b><br/>     <i>Aviva Studios (The Hall), Manchester</i><br/>     <span>3 Oct 2025, 6pm</span><br/>     <a href="https://factoryinternational.org/whats-on/black-creative-trailblazers/" target="_blank">Event details / source</a>     </div>`)[0];
+            popup_a0ccc2bb67b0e79f15e6317b6fdcc006.setContent(html_8abd816d4cb5ee6e90f2768f2af1480f);
+        
+
+        marker_df265c9829c4f2424e505671bbc51a35.bindPopup(popup_a0ccc2bb67b0e79f15e6317b6fdcc006)
+        ;
+
+        
+    
+    
+            marker_df265c9829c4f2424e505671bbc51a35.bindTooltip(
+                `<div>
+                     Manchester: Black Creative Trailblazers Showcase
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_61809fa47738a2eec4d7ee48746d4cd8 = L.marker(
+                [53.4072, -2.9917],
+                {}
+            ).addTo(map_da2b00400b4a31cf7b217d3fcaa5b4e0);
+        
+    
+        var popup_67efcf9f35bb9f4bd9dfb676f69e9978 = L.popup({"maxWidth": 350});
+
+        
+            var html_bca68aab1c5254c1756d51b88072161b = $(`<div id="html_bca68aab1c5254c1756d51b88072161b" style="width: 100.0%; height: 100.0%;">     <b>Writing on the Wall: BHM 2025 programme</b><br/>     <i>Various venues, Liverpool</i><br/>     <span>Oct 2025</span><br/>     <a href="https://writingonthewall.org.uk/black-history-month-2025/" target="_blank">Event details / source</a>     </div>`)[0];
+            popup_67efcf9f35bb9f4bd9dfb676f69e9978.setContent(html_bca68aab1c5254c1756d51b88072161b);
+        
+
+        marker_61809fa47738a2eec4d7ee48746d4cd8.bindPopup(popup_67efcf9f35bb9f4bd9dfb676f69e9978)
+        ;
+
+        
+    
+    
+            marker_61809fa47738a2eec4d7ee48746d4cd8.bindTooltip(
+                `<div>
+                     Liverpool: Writing on the Wall: BHM 2025 programme
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3c1a6fc796dee492618024f584f2bad9 = L.marker(
+                [53.405, -2.9925],
+                {}
+            ).addTo(map_da2b00400b4a31cf7b217d3fcaa5b4e0);
+        
+    
+        var popup_93be016acfc3f9fe06f8e933ea8b3d23 = L.popup({"maxWidth": 350});
+
+        
+            var html_c1eb1964f595a8a04befb659cf378b75 = $(`<div id="html_c1eb1964f595a8a04befb659cf378b75" style="width: 100.0%; height: 100.0%;">     <b>Liverpool & Slavery Walking Tour (WoW)</b><br/>     <i>City centre, Liverpool</i><br/>     <span>4 Oct 2025, 11:00</span><br/>     <a href="https://writingonthewall.org.uk/myevents/bhm25-liverpool-slavery-walking-tour/" target="_blank">Event details / source</a>     </div>`)[0];
+            popup_93be016acfc3f9fe06f8e933ea8b3d23.setContent(html_c1eb1964f595a8a04befb659cf378b75);
+        
+
+        marker_3c1a6fc796dee492618024f584f2bad9.bindPopup(popup_93be016acfc3f9fe06f8e933ea8b3d23)
+        ;
+
+        
+    
+    
+            marker_3c1a6fc796dee492618024f584f2bad9.bindTooltip(
+                `<div>
+                     Liverpool: Liverpool & Slavery Walking Tour (WoW)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dcb40544fcd5ad8c2a3eac380cfa71c5 = L.marker(
+                [53.8008, -1.5491],
+                {}
+            ).addTo(map_da2b00400b4a31cf7b217d3fcaa5b4e0);
+        
+    
+        var popup_5f0933d23801f652543b2b81c25f21ea = L.popup({"maxWidth": 350});
+
+        
+            var html_5da19f04ca456f1493fb1f84b2d9bbfc = $(`<div id="html_5da19f04ca456f1493fb1f84b2d9bbfc" style="width: 100.0%; height: 100.0%;">     <b>Leeds Inspired: BHM collection</b><br/>     <i>Multiple venues across Leeds, Leeds</i><br/>     <span>Oct 2025 (various)</span><br/>     <a href="https://www.leedsinspired.co.uk/collection/black-history-month-leeds" target="_blank">Event details / source</a>     </div>`)[0];
+            popup_5f0933d23801f652543b2b81c25f21ea.setContent(html_5da19f04ca456f1493fb1f84b2d9bbfc);
+        
+
+        marker_dcb40544fcd5ad8c2a3eac380cfa71c5.bindPopup(popup_5f0933d23801f652543b2b81c25f21ea)
+        ;
+
+        
+    
+    
+            marker_dcb40544fcd5ad8c2a3eac380cfa71c5.bindTooltip(
+                `<div>
+                     Leeds: Leeds Inspired: BHM collection
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4c14784abc21fbd89ee20d0611ff0dd5 = L.marker(
+                [53.3811, -1.4701],
+                {}
+            ).addTo(map_da2b00400b4a31cf7b217d3fcaa5b4e0);
+        
+    
+        var popup_8b5329dad59c110d1cc8d6a45520de41 = L.popup({"maxWidth": 350});
+
+        
+            var html_4bbbeabb3b6b2e3c1f5cbd8318910d9e = $(`<div id="html_4bbbeabb3b6b2e3c1f5cbd8318910d9e" style="width: 100.0%; height: 100.0%;">     <b>Sheffield BHM listings hub</b><br/>     <i>City-wide, Sheffield</i><br/>     <span>October 2025</span><br/>     <a href="https://www.welcometosheffield.co.uk/visit/what-s-on/black-history-month-event-listings/" target="_blank">Event details / source</a>     </div>`)[0];
+            popup_8b5329dad59c110d1cc8d6a45520de41.setContent(html_4bbbeabb3b6b2e3c1f5cbd8318910d9e);
+        
+
+        marker_4c14784abc21fbd89ee20d0611ff0dd5.bindPopup(popup_8b5329dad59c110d1cc8d6a45520de41)
+        ;
+
+        
+    
+    
+            marker_4c14784abc21fbd89ee20d0611ff0dd5.bindTooltip(
+                `<div>
+                     Sheffield: Sheffield BHM listings hub
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4902683cf958aac7d7c361d8ecd46917 = L.marker(
+                [53.3807, -1.4696],
+                {}
+            ).addTo(map_da2b00400b4a31cf7b217d3fcaa5b4e0);
+        
+    
+        var popup_0aa70d3191406757d6142da14a8f213b = L.popup({"maxWidth": 350});
+
+        
+            var html_07ca77ecd8ef2f68b4613e42842ed98c = $(`<div id="html_07ca77ecd8ef2f68b4613e42842ed98c" style="width: 100.0%; height: 100.0%;">     <b>Celebrating Black Writing 11–17 Oct</b><br/>     <i>Winter Garden, Sheffield</i><br/>     <span>13 Oct 2025, 10:00–16:00</span><br/>     <a href="https://offtheshelf.org.uk/events/black-history-month-celebrating-black-writing-11-17-october-3/" target="_blank">Event details / source</a>     </div>`)[0];
+            popup_0aa70d3191406757d6142da14a8f213b.setContent(html_07ca77ecd8ef2f68b4613e42842ed98c);
+        
+
+        marker_4902683cf958aac7d7c361d8ecd46917.bindPopup(popup_0aa70d3191406757d6142da14a8f213b)
+        ;
+
+        
+    
+    
+            marker_4902683cf958aac7d7c361d8ecd46917.bindTooltip(
+                `<div>
+                     Sheffield: Celebrating Black Writing 11–17 Oct
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3b7d6f2eb225f0bc40da871f833f921f = L.marker(
+                [53.3829, -1.4687],
+                {}
+            ).addTo(map_da2b00400b4a31cf7b217d3fcaa5b4e0);
+        
+    
+        var popup_9c669f8626048419cca74f04ebf5b67e = L.popup({"maxWidth": 350});
+
+        
+            var html_07e3f0fcdf7acb27ff81906843421a02 = $(`<div id="html_07e3f0fcdf7acb27ff81906843421a02" style="width: 100.0%; height: 100.0%;">     <b>BHM Community Civic Service</b><br/>     <i>Sheffield Cathedral, Sheffield</i><br/>     <span>26 Oct 2025, 18:00–20:00</span><br/>     <a href="https://www.sheffieldcathedral.org/whats-on/sheffieldcathedral/blackhistorymonth/2025" target="_blank">Event details / source</a>     </div>`)[0];
+            popup_9c669f8626048419cca74f04ebf5b67e.setContent(html_07e3f0fcdf7acb27ff81906843421a02);
+        
+
+        marker_3b7d6f2eb225f0bc40da871f833f921f.bindPopup(popup_9c669f8626048419cca74f04ebf5b67e)
+        ;
+
+        
+    
+    
+            marker_3b7d6f2eb225f0bc40da871f833f921f.bindTooltip(
+                `<div>
+                     Sheffield: BHM Community Civic Service
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dec01398b5b67c44a685c4a519db1319 = L.marker(
+                [51.4536, -2.601],
+                {}
+            ).addTo(map_da2b00400b4a31cf7b217d3fcaa5b4e0);
+        
+    
+        var popup_7a966d0522479903ef477eeaab7f63dd = L.popup({"maxWidth": 350});
+
+        
+            var html_c9c01d37f81a9dae4a9fae4b94483906 = $(`<div id="html_c9c01d37f81a9dae4a9fae4b94483906" style="width: 100.0%; height: 100.0%;">     <b>Bristol Bus Boycott X pop‑up</b><br/>     <i>City Hall & Sparks Broadmead, Bristol</i><br/>     <span>6–17 Oct (City Hall); 22 Oct–8 Nov (Sparks)</span><br/>     <a href="https://www.bristol.gov.uk/residents/people-and-communities/black-history-month" target="_blank">Event details / source</a>     </div>`)[0];
+            popup_7a966d0522479903ef477eeaab7f63dd.setContent(html_c9c01d37f81a9dae4a9fae4b94483906);
+        
+
+        marker_dec01398b5b67c44a685c4a519db1319.bindPopup(popup_7a966d0522479903ef477eeaab7f63dd)
+        ;
+
+        
+    
+    
+            marker_dec01398b5b67c44a685c4a519db1319.bindTooltip(
+                `<div>
+                     Bristol: Bristol Bus Boycott X pop‑up
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_32e0f3dd47c98ebb55e0da84ec879039 = L.marker(
+                [51.4513, -2.6005],
+                {}
+            ).addTo(map_da2b00400b4a31cf7b217d3fcaa5b4e0);
+        
+    
+        var popup_c205754919ca97feea83952b7431d797 = L.popup({"maxWidth": 350});
+
+        
+            var html_9e0e438d851ba5101953fdc0af10c2c3 = $(`<div id="html_9e0e438d851ba5101953fdc0af10c2c3" style="width: 100.0%; height: 100.0%;">     <b>Selma – outdoor film screening</b><br/>     <i>We The Curious, Bristol</i><br/>     <span>26 Oct 2025, 18:30</span><br/>     <a href="https://www.bristol.gov.uk/residents/people-and-communities/black-history-month" target="_blank">Event details / source</a>     </div>`)[0];
+            popup_c205754919ca97feea83952b7431d797.setContent(html_9e0e438d851ba5101953fdc0af10c2c3);
+        
+
+        marker_32e0f3dd47c98ebb55e0da84ec879039.bindPopup(popup_c205754919ca97feea83952b7431d797)
+        ;
+
+        
+    
+    
+            marker_32e0f3dd47c98ebb55e0da84ec879039.bindTooltip(
+                `<div>
+                     Bristol: Selma – outdoor film screening
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d9b29c76d16bf9a480d975924b87d4bc = L.marker(
+                [52.475, -1.8966],
+                {}
+            ).addTo(map_da2b00400b4a31cf7b217d3fcaa5b4e0);
+        
+    
+        var popup_387fe464fdd7678808203e705393c1d3 = L.popup({"maxWidth": 350});
+
+        
+            var html_cb383fb3664f69b858981563f0f8a87a = $(`<div id="html_cb383fb3664f69b858981563f0f8a87a" style="width: 100.0%; height: 100.0%;">     <b>Black Power Desk – new musical</b><br/>     <i>Birmingham Hippodrome, Birmingham</i><br/>     <span>22–25 Oct 2025</span><br/>     <a href="https://visitbirmingham.com/whats-on/black-history-month/" target="_blank">Event details / source</a>     </div>`)[0];
+            popup_387fe464fdd7678808203e705393c1d3.setContent(html_cb383fb3664f69b858981563f0f8a87a);
+        
+
+        marker_d9b29c76d16bf9a480d975924b87d4bc.bindPopup(popup_387fe464fdd7678808203e705393c1d3)
+        ;
+
+        
+    
+    
+            marker_d9b29c76d16bf9a480d975924b87d4bc.bindTooltip(
+                `<div>
+                     Birmingham: Black Power Desk – new musical
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fca442a8bfc559ebe1d042a6cae41378 = L.marker(
+                [52.4508, -1.9305],
+                {}
+            ).addTo(map_da2b00400b4a31cf7b217d3fcaa5b4e0);
+        
+    
+        var popup_1a9f738ac3fa8a2dce6f76e7b891ce9a = L.popup({"maxWidth": 350});
+
+        
+            var html_ee817eee1e37d5487542ec65aaf51e35 = $(`<div id="html_ee817eee1e37d5487542ec65aaf51e35" style="width: 100.0%; height: 100.0%;">     <b>UoB BHM film screenings</b><br/>     <i>University of Birmingham, Birmingham</i><br/>     <span>22 & 29 Oct 2025 (evening)</span><br/>     <a href="https://www.birmingham.ac.uk/events/black-history-month" target="_blank">Event details / source</a>     </div>`)[0];
+            popup_1a9f738ac3fa8a2dce6f76e7b891ce9a.setContent(html_ee817eee1e37d5487542ec65aaf51e35);
+        
+
+        marker_fca442a8bfc559ebe1d042a6cae41378.bindPopup(popup_1a9f738ac3fa8a2dce6f76e7b891ce9a)
+        ;
+
+        
+    
+    
+            marker_fca442a8bfc559ebe1d042a6cae41378.bindTooltip(
+                `<div>
+                     Birmingham: UoB BHM film screenings
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c1cec2499cb9878c16566d4687298d1a = L.marker(
+                [55.8617, -4.25],
+                {}
+            ).addTo(map_da2b00400b4a31cf7b217d3fcaa5b4e0);
+        
+    
+        var popup_de9c650c5576e7e4a077416f2c18fdc2 = L.popup({"maxWidth": 350});
+
+        
+            var html_e634b804f439a945530a94d59f50f12e = $(`<div id="html_e634b804f439a945530a94d59f50f12e" style="width: 100.0%; height: 100.0%;">     <b>Glasgow Black History Walking Tour</b><br/>     <i>City centre, Glasgow</i><br/>     <span>5 Oct 2025, 13:00–15:00</span><br/>     <a href="https://www.blackhistorymonthscotland.org/whats-on" target="_blank">Event details / source</a>     </div>`)[0];
+            popup_de9c650c5576e7e4a077416f2c18fdc2.setContent(html_e634b804f439a945530a94d59f50f12e);
+        
+
+        marker_c1cec2499cb9878c16566d4687298d1a.bindPopup(popup_de9c650c5576e7e4a077416f2c18fdc2)
+        ;
+
+        
+    
+    
+            marker_c1cec2499cb9878c16566d4687298d1a.bindTooltip(
+                `<div>
+                     Glasgow: Glasgow Black History Walking Tour
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5893fa4e37cfadad1391b4deb0228d1e = L.marker(
+                [55.8609, -4.2514],
+                {}
+            ).addTo(map_da2b00400b4a31cf7b217d3fcaa5b4e0);
+        
+    
+        var popup_fc0c4437b37fc66ccd3ec208864405af = L.popup({"maxWidth": 350});
+
+        
+            var html_97ac63c5737b42dbac6e484bb129e064 = $(`<div id="html_97ac63c5737b42dbac6e484bb129e064" style="width: 100.0%; height: 100.0%;">     <b>GoMA Late: BHM</b><br/>     <i>Gallery of Modern Art, Glasgow</i><br/>     <span>9 Oct 2025, 18:00–21:00</span><br/>     <a href="https://www.blackhistorymonthscotland.org/whats-on" target="_blank">Event details / source</a>     </div>`)[0];
+            popup_fc0c4437b37fc66ccd3ec208864405af.setContent(html_97ac63c5737b42dbac6e484bb129e064);
+        
+
+        marker_5893fa4e37cfadad1391b4deb0228d1e.bindPopup(popup_fc0c4437b37fc66ccd3ec208864405af)
+        ;
+
+        
+    
+    
+            marker_5893fa4e37cfadad1391b4deb0228d1e.bindTooltip(
+                `<div>
+                     Glasgow: GoMA Late: BHM
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b98e6bf27cc3b69e72764073d62431d4 = L.marker(
+                [56.4589, -2.9675],
+                {}
+            ).addTo(map_da2b00400b4a31cf7b217d3fcaa5b4e0);
+        
+    
+        var popup_e5689b4e1c251fd204afc92f0e2cc47b = L.popup({"maxWidth": 350});
+
+        
+            var html_5c01f948a594f9c9122ac86b15b1c993 = $(`<div id="html_5c01f948a594f9c9122ac86b15b1c993" style="width: 100.0%; height: 100.0%;">     <b>Garden Futures: BHM Tour</b><br/>     <i>V&A Dundee, Dundee</i><br/>     <span>14 Oct 2025, 14:30–15:30</span><br/>     <a href="https://www.blackhistorymonthscotland.org/whats-on" target="_blank">Event details / source</a>     </div>`)[0];
+            popup_e5689b4e1c251fd204afc92f0e2cc47b.setContent(html_5c01f948a594f9c9122ac86b15b1c993);
+        
+
+        marker_b98e6bf27cc3b69e72764073d62431d4.bindPopup(popup_e5689b4e1c251fd204afc92f0e2cc47b)
+        ;
+
+        
+    
+    
+            marker_b98e6bf27cc3b69e72764073d62431d4.bindTooltip(
+                `<div>
+                     Dundee: Garden Futures: BHM Tour
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f8a63c3fe22933a655e6d9c047457713 = L.marker(
+                [57.118, -2.1385],
+                {}
+            ).addTo(map_da2b00400b4a31cf7b217d3fcaa5b4e0);
+        
+    
+        var popup_276f3260ee3fb8510ce396a63319933c = L.popup({"maxWidth": 350});
+
+        
+            var html_660418bc0088ed87aa6fa87bc0c37059 = $(`<div id="html_660418bc0088ed87aa6fa87bc0c37059" style="width: 100.0%; height: 100.0%;">     <b>RGU BHM Conference</b><br/>     <i>Robert Gordon University, Aberdeen</i><br/>     <span>29 Oct 2025, 12:30–14:30</span><br/>     <a href="https://www.rgu.ac.uk/events/events-2025/8455-black-history-month-2025-conference" target="_blank">Event details / source</a>     </div>`)[0];
+            popup_276f3260ee3fb8510ce396a63319933c.setContent(html_660418bc0088ed87aa6fa87bc0c37059);
+        
+
+        marker_f8a63c3fe22933a655e6d9c047457713.bindPopup(popup_276f3260ee3fb8510ce396a63319933c)
+        ;
+
+        
+    
+    
+            marker_f8a63c3fe22933a655e6d9c047457713.bindTooltip(
+                `<div>
+                     Aberdeen: RGU BHM Conference
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7234637e416256a89a5b14d0a67a7235 = L.marker(
+                [55.975, -3.169],
+                {}
+            ).addTo(map_da2b00400b4a31cf7b217d3fcaa5b4e0);
+        
+    
+        var popup_5173217860412360e830a4368f86b4ce = L.popup({"maxWidth": 350});
+
+        
+            var html_439f5a7d257f4dfe6942acc840b39542 = $(`<div id="html_439f5a7d257f4dfe6942acc840b39542" style="width: 100.0%; height: 100.0%;">     <b>Maritime Leith’s Black History (walking tour)</b><br/>     <i>Leith, Edinburgh</i><br/>     <span>Selected dates 3–24 Oct 2025</span><br/>     <a href="https://edinburgh.org/event/maritime-leiths-black-history/" target="_blank">Event details / source</a>     </div>`)[0];
+            popup_5173217860412360e830a4368f86b4ce.setContent(html_439f5a7d257f4dfe6942acc840b39542);
+        
+
+        marker_7234637e416256a89a5b14d0a67a7235.bindPopup(popup_5173217860412360e830a4368f86b4ce)
+        ;
+
+        
+    
+    
+            marker_7234637e416256a89a5b14d0a67a7235.bindTooltip(
+                `<div>
+                     Edinburgh: Maritime Leith’s Black History (walking tour)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aa43aa41df4f356d7b5339934b8bfb2e = L.marker(
+                [55.951, -3.187],
+                {}
+            ).addTo(map_da2b00400b4a31cf7b217d3fcaa5b4e0);
+        
+    
+        var popup_49d738ee9f8143cda910fec543164ae4 = L.popup({"maxWidth": 350});
+
+        
+            var html_1213fe101b6f10fae4d91f269aa33851 = $(`<div id="html_1213fe101b6f10fae4d91f269aa33851" style="width: 100.0%; height: 100.0%;">     <b>Olive Senior: Botany and Empire (online lecture)</b><br/>     <i>City Art Centre (online), Edinburgh</i><br/>     <span>24 Oct 2025, 14:00</span><br/>     <a href="https://cultureedinburgh.com/events/black-history-month---botany-and-empire-olive-seniors-anticolonial-poetry" target="_blank">Event details / source</a>     </div>`)[0];
+            popup_49d738ee9f8143cda910fec543164ae4.setContent(html_1213fe101b6f10fae4d91f269aa33851);
+        
+
+        marker_aa43aa41df4f356d7b5339934b8bfb2e.bindPopup(popup_49d738ee9f8143cda910fec543164ae4)
+        ;
+
+        
+    
+    
+            marker_aa43aa41df4f356d7b5339934b8bfb2e.bindTooltip(
+                `<div>
+                     Edinburgh: Olive Senior: Botany and Empire (online lecture)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bf2add08f6fb5754336cfff1a0c7e73b = L.marker(
+                [54.9816, -1.6156],
+                {}
+            ).addTo(map_da2b00400b4a31cf7b217d3fcaa5b4e0);
+        
+    
+        var popup_ac12ac7e8cabef6b274d883f2702c75f = L.popup({"maxWidth": 350});
+
+        
+            var html_d24aa13676cbac07964416ff8b52018a = $(`<div id="html_d24aa13676cbac07964416ff8b52018a" style="width: 100.0%; height: 100.0%;">     <b>BHM Lecture: Prof Jason Arday</b><br/>     <i>Curtis Auditorium, Newcastle University, Newcastle</i><br/>     <span>14 Oct 2025, 17:30</span><br/>     <a href="https://www.ncl.ac.uk/university-events/public-lectures/upcoming-lectures/public-lectures/jason-arday/" target="_blank">Event details / source</a>     </div>`)[0];
+            popup_ac12ac7e8cabef6b274d883f2702c75f.setContent(html_d24aa13676cbac07964416ff8b52018a);
+        
+
+        marker_bf2add08f6fb5754336cfff1a0c7e73b.bindPopup(popup_ac12ac7e8cabef6b274d883f2702c75f)
+        ;
+
+        
+    
+    
+            marker_bf2add08f6fb5754336cfff1a0c7e73b.bindTooltip(
+                `<div>
+                     Newcastle: BHM Lecture: Prof Jason Arday
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a903e96a8d798424429049d4eed3b0b3 = L.marker(
+                [52.9563, -1.1546],
+                {}
+            ).addTo(map_da2b00400b4a31cf7b217d3fcaa5b4e0);
+        
+    
+        var popup_708029175f8c2df28b15880ddb55a65f = L.popup({"maxWidth": 350});
+
+        
+            var html_a718e7c0ea6081e977c537f36609cf4f = $(`<div id="html_a718e7c0ea6081e977c537f36609cf4f" style="width: 100.0%; height: 100.0%;">     <b>Black History Month at NTU (programme)</b><br/>     <i>Nottingham Trent University, Nottingham</i><br/>     <span>October 2025</span><br/>     <a href="https://www.ntu.ac.uk/c/black-history-month-at-ntu" target="_blank">Event details / source</a>     </div>`)[0];
+            popup_708029175f8c2df28b15880ddb55a65f.setContent(html_a718e7c0ea6081e977c537f36609cf4f);
+        
+
+        marker_a903e96a8d798424429049d4eed3b0b3.bindPopup(popup_708029175f8c2df28b15880ddb55a65f)
+        ;
+
+        
+    
+    
+            marker_a903e96a8d798424429049d4eed3b0b3.bindTooltip(
+                `<div>
+                     Nottingham: Black History Month at NTU (programme)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_adb8a88c6d98f8ae0e54d309a8c6e19e = L.marker(
+                [52.6369, -1.1398],
+                {}
+            ).addTo(map_da2b00400b4a31cf7b217d3fcaa5b4e0);
+        
+    
+        var popup_142223ebf2defc1ed584d3d41ca1d300 = L.popup({"maxWidth": 350});
+
+        
+            var html_e5b415438ac19a048a7ddcda65b18bc7 = $(`<div id="html_e5b415438ac19a048a7ddcda65b18bc7" style="width: 100.0%; height: 100.0%;">     <b>Black History Month Leicester (city programme)</b><br/>     <i>City-wide (Serendipity), Leicester</i><br/>     <span>October 2025</span><br/>     <a href="https://www.serendipity-uk.com/whats-on/key-events/black-history-month/" target="_blank">Event details / source</a>     </div>`)[0];
+            popup_142223ebf2defc1ed584d3d41ca1d300.setContent(html_e5b415438ac19a048a7ddcda65b18bc7);
+        
+
+        marker_adb8a88c6d98f8ae0e54d309a8c6e19e.bindPopup(popup_142223ebf2defc1ed584d3d41ca1d300)
+        ;
+
+        
+    
+    
+            marker_adb8a88c6d98f8ae0e54d309a8c6e19e.bindTooltip(
+                `<div>
+                     Leicester: Black History Month Leicester (city programme)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cda89d35ef8ccb3b17726ec879a55a23 = L.marker(
+                [52.6362, -1.1255],
+                {}
+            ).addTo(map_da2b00400b4a31cf7b217d3fcaa5b4e0);
+        
+    
+        var popup_31299e39c0fb789956f298b2e7bc28e1 = L.popup({"maxWidth": 350});
+
+        
+            var html_7bc9240e196a9f58c7d6c4e84cb8d58f = $(`<div id="html_7bc9240e196a9f58c7d6c4e84cb8d58f" style="width: 100.0%; height: 100.0%;">     <b>BHM Community Day at Curve</b><br/>     <i>Curve Leicester, Leicester</i><br/>     <span>25 Oct 2025, 12:00–16:00</span><br/>     <a href="https://www.curveonline.co.uk/whats-on/workshops/black-history-month-community-day-2/" target="_blank">Event details / source</a>     </div>`)[0];
+            popup_31299e39c0fb789956f298b2e7bc28e1.setContent(html_7bc9240e196a9f58c7d6c4e84cb8d58f);
+        
+
+        marker_cda89d35ef8ccb3b17726ec879a55a23.bindPopup(popup_31299e39c0fb789956f298b2e7bc28e1)
+        ;
+
+        
+    
+    
+            marker_cda89d35ef8ccb3b17726ec879a55a23.bindTooltip(
+                `<div>
+                     Leicester: BHM Community Day at Curve
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8e7986f882d91acd14f1642ce1381614 = L.marker(
+                [52.3813, -1.561],
+                {}
+            ).addTo(map_da2b00400b4a31cf7b217d3fcaa5b4e0);
+        
+    
+        var popup_ebced8bf7b98724eb5d1e3612d41de22 = L.popup({"maxWidth": 350});
+
+        
+            var html_fccca30a6bc707999feb0f15350bf963 = $(`<div id="html_fccca30a6bc707999feb0f15350bf963" style="width: 100.0%; height: 100.0%;">     <b>COBO: Comedy Shutdown BHM Special</b><br/>     <i>Warwick Arts Centre, Coventry</i><br/>     <span>4 Oct 2025</span><br/>     <a href="https://www.eventbrite.co.uk/e/cobo-comedy-shutdown-black-history-month-special-coventry-tickets-1491442146609" target="_blank">Event details / source</a>     </div>`)[0];
+            popup_ebced8bf7b98724eb5d1e3612d41de22.setContent(html_fccca30a6bc707999feb0f15350bf963);
+        
+
+        marker_8e7986f882d91acd14f1642ce1381614.bindPopup(popup_ebced8bf7b98724eb5d1e3612d41de22)
+        ;
+
+        
+    
+    
+            marker_8e7986f882d91acd14f1642ce1381614.bindTooltip(
+                `<div>
+                     Coventry: COBO: Comedy Shutdown BHM Special
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_60e7795b44411a3891c083ae616c93b3 = L.marker(
+                [52.4023, -1.4933],
+                {}
+            ).addTo(map_da2b00400b4a31cf7b217d3fcaa5b4e0);
+        
+    
+        var popup_4e8c39905082f46525988b44172654e9 = L.popup({"maxWidth": 350});
+
+        
+            var html_3f630b35dffe3c9c651279cd36654dba = $(`<div id="html_3f630b35dffe3c9c651279cd36654dba" style="width: 100.0%; height: 100.0%;">     <b>BHM 2025 Showcase (Blue Coat Theatre)</b><br/>     <i>Blue Coat Theatre, Stoke, Coventry, Coventry</i><br/>     <span>21 Oct 2025</span><br/>     <a href="https://www.ticketsource.co.uk/whats-on/terry-road-stoke-coventry/blue-coat-theatre/black-history-month-2025-showcase/e-yjpazj" target="_blank">Event details / source</a>     </div>`)[0];
+            popup_4e8c39905082f46525988b44172654e9.setContent(html_3f630b35dffe3c9c651279cd36654dba);
+        
+
+        marker_60e7795b44411a3891c083ae616c93b3.bindPopup(popup_4e8c39905082f46525988b44172654e9)
+        ;
+
+        
+    
+    
+            marker_60e7795b44411a3891c083ae616c93b3.bindTooltip(
+                `<div>
+                     Coventry: BHM 2025 Showcase (Blue Coat Theatre)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ad82572cf1754ac44a3166936d6e279e = L.marker(
+                [53.7939, -1.7521],
+                {}
+            ).addTo(map_da2b00400b4a31cf7b217d3fcaa5b4e0);
+        
+    
+        var popup_91718d7643bede0c6179ab77cae1e80b = L.popup({"maxWidth": 350});
+
+        
+            var html_3982db6c50f637e528e9ac65bdd0dd47 = $(`<div id="html_3982db6c50f637e528e9ac65bdd0dd47" style="width: 100.0%; height: 100.0%;">     <b>Bradford BHM 2025 City Programme</b><br/>     <i>Various (see PDF), Bradford</i><br/>     <span>1–31 Oct 2025</span><br/>     <a href="https://www.visitbradford.com/downloads/dmsimgs/Bradford_Black_History_Month_2025_Programme_LwRes_V2_1220996188.pdf" target="_blank">Event details / source</a>     </div>`)[0];
+            popup_91718d7643bede0c6179ab77cae1e80b.setContent(html_3982db6c50f637e528e9ac65bdd0dd47);
+        
+
+        marker_ad82572cf1754ac44a3166936d6e279e.bindPopup(popup_91718d7643bede0c6179ab77cae1e80b)
+        ;
+
+        
+    
+    
+            marker_ad82572cf1754ac44a3166936d6e279e.bindTooltip(
+                `<div>
+                     Bradford: Bradford BHM 2025 City Programme
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ef65a56a0f9647db7aeeb284428d571e = L.marker(
+                [50.9086, -1.4041],
+                {}
+            ).addTo(map_da2b00400b4a31cf7b217d3fcaa5b4e0);
+        
+    
+        var popup_d51363864d7ce0e106c9e8d3aa3d3445 = L.popup({"maxWidth": 350});
+
+        
+            var html_7c61c750c539e77684bcd236cbe29343 = $(`<div id="html_7c61c750c539e77684bcd236cbe29343" style="width: 100.0%; height: 100.0%;">     <b>Colourism Exhibition (BHM South)</b><br/>     <i>Southampton Central Library, Southampton</i><br/>     <span>October 2025</span><br/>     <a href="https://www.southampton.gov.uk/news/article/southampton-celebrates-black-history-month-this-october/" target="_blank">Event details / source</a>     </div>`)[0];
+            popup_d51363864d7ce0e106c9e8d3aa3d3445.setContent(html_7c61c750c539e77684bcd236cbe29343);
+        
+
+        marker_ef65a56a0f9647db7aeeb284428d571e.bindPopup(popup_d51363864d7ce0e106c9e8d3aa3d3445)
+        ;
+
+        
+    
+    
+            marker_ef65a56a0f9647db7aeeb284428d571e.bindTooltip(
+                `<div>
+                     Southampton: Colourism Exhibition (BHM South)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0813c5bda43119cbf6324629ce2a44bb = L.marker(
+                [50.9097, -1.4136],
+                {}
+            ).addTo(map_da2b00400b4a31cf7b217d3fcaa5b4e0);
+        
+    
+        var popup_41c479afccaa1a9acd11b443d316930c = L.popup({"maxWidth": 350});
+
+        
+            var html_ea23c206158f2b6ede8f4471860954e9 = $(`<div id="html_ea23c206158f2b6ede8f4471860954e9" style="width: 100.0%; height: 100.0%;">     <b>Is Black History Month Relevant in Southampton? (talk)</b><br/>     <i>SeaCity Museum (online talk), Southampton</i><br/>     <span>7 Oct 2025, 19:30</span><br/>     <a href="https://southamptonmuseumsandgallery.co.uk/events/don-john-black-history-month-talk/" target="_blank">Event details / source</a>     </div>`)[0];
+            popup_41c479afccaa1a9acd11b443d316930c.setContent(html_ea23c206158f2b6ede8f4471860954e9);
+        
+
+        marker_0813c5bda43119cbf6324629ce2a44bb.bindPopup(popup_41c479afccaa1a9acd11b443d316930c)
+        ;
+
+        
+    
+    
+            marker_0813c5bda43119cbf6324629ce2a44bb.bindTooltip(
+                `<div>
+                     Southampton: Is Black History Month Relevant in Southampton? (talk)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d13c511371b122dc096a3a066a10ca8b = L.marker(
+                [50.7915, -1.0854],
+                {}
+            ).addTo(map_da2b00400b4a31cf7b217d3fcaa5b4e0);
+        
+    
+        var popup_f46bc72c50bc425e0a3ce069b703b039 = L.popup({"maxWidth": 350});
+
+        
+            var html_5e702721982ed21f135e261bdb065361 = $(`<div id="html_5e702721982ed21f135e261bdb065361" style="width: 100.0%; height: 100.0%;">     <b>Black History Month Celebration (Pamodzi)</b><br/>     <i>The Wedgewood Rooms, Portsmouth</i><br/>     <span>5 Oct 2025, 15:00</span><br/>     <a href="https://www.wedgewood-rooms.co.uk/events/2025-10-05-black-history-month-celebration-the-wedgewood-rooms" target="_blank">Event details / source</a>     </div>`)[0];
+            popup_f46bc72c50bc425e0a3ce069b703b039.setContent(html_5e702721982ed21f135e261bdb065361);
+        
+
+        marker_d13c511371b122dc096a3a066a10ca8b.bindPopup(popup_f46bc72c50bc425e0a3ce069b703b039)
+        ;
+
+        
+    
+    
+            marker_d13c511371b122dc096a3a066a10ca8b.bindTooltip(
+                `<div>
+                     Portsmouth: Black History Month Celebration (Pamodzi)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_352d7cc52ecf0ec97c42ea626ec7cf1e = L.marker(
+                [50.8014, -1.097],
+                {}
+            ).addTo(map_da2b00400b4a31cf7b217d3fcaa5b4e0);
+        
+    
+        var popup_7cdee03d37af1d5178427c3eb81cfe6e = L.popup({"maxWidth": 350});
+
+        
+            var html_c101b681093e2ef212e810e172f7c762 = $(`<div id="html_c101b681093e2ef212e810e172f7c762" style="width: 100.0%; height: 100.0%;">     <b>Portsmouth Museum: BHM films launch</b><br/>     <i>Portsmouth Museum & Art Gallery, Portsmouth</i><br/>     <span>From 9 Oct 2025</span><br/>     <a href="https://www.portsmouth.gov.uk/portsmouth-marks-black-history-month-with-powerful-new-films/" target="_blank">Event details / source</a>     </div>`)[0];
+            popup_7cdee03d37af1d5178427c3eb81cfe6e.setContent(html_c101b681093e2ef212e810e172f7c762);
+        
+
+        marker_352d7cc52ecf0ec97c42ea626ec7cf1e.bindPopup(popup_7cdee03d37af1d5178427c3eb81cfe6e)
+        ;
+
+        
+    
+    
+            marker_352d7cc52ecf0ec97c42ea626ec7cf1e.bindTooltip(
+                `<div>
+                     Portsmouth: Portsmouth Museum: BHM films launch
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_32c9a89c16526a4b3ab27db47aadb566 = L.marker(
+                [50.8195, -0.118],
+                {}
+            ).addTo(map_da2b00400b4a31cf7b217d3fcaa5b4e0);
+        
+    
+        var popup_333810146a63762242b1335356c57a83 = L.popup({"maxWidth": 350});
+
+        
+            var html_3d548b0e4b31f167a63ff1c22f0f3869 = $(`<div id="html_3d548b0e4b31f167a63ff1c22f0f3869" style="width: 100.0%; height: 100.0%;">     <b>Black Brighton Market</b><br/>     <i>The Actors, Kemptown, Brighton</i><br/>     <span>4 Oct 2025, 12:00–16:00</span><br/>     <a href="https://www.eventbrite.co.uk/e/black-brighton-market-black-history-month-tickets-1602099696319" target="_blank">Event details / source</a>     </div>`)[0];
+            popup_333810146a63762242b1335356c57a83.setContent(html_3d548b0e4b31f167a63ff1c22f0f3869);
+        
+
+        marker_32c9a89c16526a4b3ab27db47aadb566.bindPopup(popup_333810146a63762242b1335356c57a83)
+        ;
+
+        
+    
+    
+            marker_32c9a89c16526a4b3ab27db47aadb566.bindTooltip(
+                `<div>
+                     Brighton: Black Brighton Market
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3aaa4db6d4f681592a1d155a3fec4caa = L.marker(
+                [50.8306, -0.1708],
+                {}
+            ).addTo(map_da2b00400b4a31cf7b217d3fcaa5b4e0);
+        
+    
+        var popup_9d06bee316049923ffa5c2bfc1082cf4 = L.popup({"maxWidth": 350});
+
+        
+            var html_550913f1252805ce20a3dabe45cfdda1 = $(`<div id="html_550913f1252805ce20a3dabe45cfdda1" style="width: 100.0%; height: 100.0%;">     <b>Voices of Power – BHM Concert</b><br/>     <i>Hove Methodist Church, Hove</i><br/>     <span>25 Oct 2025, 14:00–18:00</span><br/>     <a href="https://discoverbrighton.org/event/voices-of-power-black-history-month-concert-2025/" target="_blank">Event details / source</a>     </div>`)[0];
+            popup_9d06bee316049923ffa5c2bfc1082cf4.setContent(html_550913f1252805ce20a3dabe45cfdda1);
+        
+
+        marker_3aaa4db6d4f681592a1d155a3fec4caa.bindPopup(popup_9d06bee316049923ffa5c2bfc1082cf4)
+        ;
+
+        
+    
+    
+            marker_3aaa4db6d4f681592a1d155a3fec4caa.bindTooltip(
+                `<div>
+                     Hove: Voices of Power – BHM Concert
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3969b7d14e5bc137309528a8970cb69c = L.marker(
+                [51.76, -1.2593],
+                {}
+            ).addTo(map_da2b00400b4a31cf7b217d3fcaa5b4e0);
+        
+    
+        var popup_4c1629800de48bd3cccf3b32ad81f6d8 = L.popup({"maxWidth": 350});
+
+        
+            var html_40d2020ce62ca8b81f792a2c8ce4ec0f = $(`<div id="html_40d2020ce62ca8b81f792a2c8ce4ec0f" style="width: 100.0%; height: 100.0%;">     <b>University of Oxford BHM Lecture</b><br/>     <i>O’Reilly Theatre, Keble College, Oxford</i><br/>     <span>16 Oct 2025, 17:15–19:00</span><br/>     <a href="https://www.ox.ac.uk/event/university-oxford-black-history-month-lecture-2025" target="_blank">Event details / source</a>     </div>`)[0];
+            popup_4c1629800de48bd3cccf3b32ad81f6d8.setContent(html_40d2020ce62ca8b81f792a2c8ce4ec0f);
+        
+
+        marker_3969b7d14e5bc137309528a8970cb69c.bindPopup(popup_4c1629800de48bd3cccf3b32ad81f6d8)
+        ;
+
+        
+    
+    
+            marker_3969b7d14e5bc137309528a8970cb69c.bindTooltip(
+                `<div>
+                     Oxford: University of Oxford BHM Lecture
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3d94ce081467e9616e6b843d36c6ce21 = L.marker(
+                [51.7557, -1.2545],
+                {}
+            ).addTo(map_da2b00400b4a31cf7b217d3fcaa5b4e0);
+        
+    
+        var popup_ef52d0a0f38a18a17be58cfdb421e900 = L.popup({"maxWidth": 350});
+
+        
+            var html_ecf258d2df34b76517eba80615caa67c = $(`<div id="html_ecf258d2df34b76517eba80615caa67c" style="width: 100.0%; height: 100.0%;">     <b>St John’s College BHM Lecture</b><br/>     <i>Garden Quad Auditorium, St John’s, Oxford</i><br/>     <span>30 Oct 2025, 17:00–19:00</span><br/>     <a href="https://www.sjc.ox.ac.uk/discover/events/black-history-month-lecture-2025/" target="_blank">Event details / source</a>     </div>`)[0];
+            popup_ef52d0a0f38a18a17be58cfdb421e900.setContent(html_ecf258d2df34b76517eba80615caa67c);
+        
+
+        marker_3d94ce081467e9616e6b843d36c6ce21.bindPopup(popup_ef52d0a0f38a18a17be58cfdb421e900)
+        ;
+
+        
+    
+    
+            marker_3d94ce081467e9616e6b843d36c6ce21.bindTooltip(
+                `<div>
+                     Oxford: St John’s College BHM Lecture
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_22f93ede68dd486cca452b8d16c0c103 = L.marker(
+                [52.2053, 0.1218],
+                {}
+            ).addTo(map_da2b00400b4a31cf7b217d3fcaa5b4e0);
+        
+    
+        var popup_aa20788cb92d7134fd6e7071ff4031dc = L.popup({"maxWidth": 350});
+
+        
+            var html_117e061d001059b2935010e02cb85f08 = $(`<div id="html_117e061d001059b2935010e02cb85f08" style="width: 100.0%; height: 100.0%;">     <b>City BHM roundup (Council hub)</b><br/>     <i>Various venues, Cambridge</i><br/>     <span>October 2025</span><br/>     <a href="https://www.cambridge.gov.uk/news/2025/10/01/help-shape-climate-and-nature-work-in-cambridge-and-south-cambridgeshire" target="_blank">Event details / source</a>     </div>`)[0];
+            popup_aa20788cb92d7134fd6e7071ff4031dc.setContent(html_117e061d001059b2935010e02cb85f08);
+        
+
+        marker_22f93ede68dd486cca452b8d16c0c103.bindPopup(popup_aa20788cb92d7134fd6e7071ff4031dc)
+        ;
+
+        
+    
+    
+            marker_22f93ede68dd486cca452b8d16c0c103.bindTooltip(
+                `<div>
+                     Cambridge: City BHM roundup (Council hub)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3bf519a47b03cc5d65fab866bb8f6a92 = L.marker(
+                [52.1987, 0.1149],
+                {}
+            ).addTo(map_da2b00400b4a31cf7b217d3fcaa5b4e0);
+        
+    
+        var popup_baa8375dfe662d681c45880b26001a52 = L.popup({"maxWidth": 350});
+
+        
+            var html_6c645d49288302637ea702a751561b6a = $(`<div id="html_6c645d49288302637ea702a751561b6a" style="width: 100.0%; height: 100.0%;">     <b>REACH BHM: Lessons from Leadership</b><br/>     <i>Wolfson College, Cambridge</i><br/>     <span>10 Oct 2025, 17:30</span><br/>     <a href="https://www.wolfson.cam.ac.uk/about/events/reach-black-history-month-event-lessons-leadership" target="_blank">Event details / source</a>     </div>`)[0];
+            popup_baa8375dfe662d681c45880b26001a52.setContent(html_6c645d49288302637ea702a751561b6a);
+        
+
+        marker_3bf519a47b03cc5d65fab866bb8f6a92.bindPopup(popup_baa8375dfe662d681c45880b26001a52)
+        ;
+
+        
+    
+    
+            marker_3bf519a47b03cc5d65fab866bb8f6a92.bindTooltip(
+                `<div>
+                     Cambridge: REACH BHM: Lessons from Leadership
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7a21f67382596bd7ac1a6166ff07d8b4 = L.marker(
+                [53.7412, -0.3538],
+                {}
+            ).addTo(map_da2b00400b4a31cf7b217d3fcaa5b4e0);
+        
+    
+        var popup_4b742bf1c55d033000ef6936c7183199 = L.popup({"maxWidth": 350});
+
+        
+            var html_236084b7242b6395cdd4856c006307a9 = $(`<div id="html_236084b7242b6395cdd4856c006307a9" style="width: 100.0%; height: 100.0%;">     <b>BHM Event – Embracing Diversity</b><br/>     <i>St Matthew’s Church Hall, Hull</i><br/>     <span>22 Oct 2025</span><br/>     <a href="https://www.blackhistorymonth.org.uk/article/listings/region/hull/black-history-month-event-embracing-diversity/" target="_blank">Event details / source</a>     </div>`)[0];
+            popup_4b742bf1c55d033000ef6936c7183199.setContent(html_236084b7242b6395cdd4856c006307a9);
+        
+
+        marker_7a21f67382596bd7ac1a6166ff07d8b4.bindPopup(popup_4b742bf1c55d033000ef6936c7183199)
+        ;
+
+        
+    
+    
+            marker_7a21f67382596bd7ac1a6166ff07d8b4.bindTooltip(
+                `<div>
+                     Hull: BHM Event – Embracing Diversity
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cb630e71eb261d89dd1f2173ebb7967c = L.marker(
+                [50.3746, -4.139],
+                {}
+            ).addTo(map_da2b00400b4a31cf7b217d3fcaa5b4e0);
+        
+    
+        var popup_05c61795893f11b0e901c81da0d7bbd2 = L.popup({"maxWidth": 350});
+
+        
+            var html_57401e01fb959c44db1b4c659dd2a651 = $(`<div id="html_57401e01fb959c44db1b4c659dd2a651" style="width: 100.0%; height: 100.0%;">     <b>UPSU: Black History Month hub</b><br/>     <i>University of Plymouth Students’ Union, Plymouth</i><br/>     <span>October 2025</span><br/>     <a href="https://www.upsu.com/representation/bhm/" target="_blank">Event details / source</a>     </div>`)[0];
+            popup_05c61795893f11b0e901c81da0d7bbd2.setContent(html_57401e01fb959c44db1b4c659dd2a651);
+        
+
+        marker_cb630e71eb261d89dd1f2173ebb7967c.bindPopup(popup_05c61795893f11b0e901c81da0d7bbd2)
+        ;
+
+        
+    
+    
+            marker_cb630e71eb261d89dd1f2173ebb7967c.bindTooltip(
+                `<div>
+                     Plymouth: UPSU: Black History Month hub
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b69847c60e75aadd72b77220d99a30c5 = L.marker(
+                [53.0259, -2.1761],
+                {}
+            ).addTo(map_da2b00400b4a31cf7b217d3fcaa5b4e0);
+        
+    
+        var popup_93482b06426739c8fa6ff1d1fc4173ca = L.popup({"maxWidth": 350});
+
+        
+            var html_d2669e29ce1773b400ae1b461c00ffc8 = $(`<div id="html_d2669e29ce1773b400ae1b461c00ffc8" style="width: 100.0%; height: 100.0%;">     <b>Black History Month Celebrations (Kwanzaa Collective UK)</b><br/>     <i>The Potteries Museum & Art Gallery, Stoke-on-Trent</i><br/>     <span>4 Oct 2025, 11:00–17:00</span><br/>     <a href="https://www.stokemuseums.org.uk/pmag/whats-on/events/" target="_blank">Event details / source</a>     </div>`)[0];
+            popup_93482b06426739c8fa6ff1d1fc4173ca.setContent(html_d2669e29ce1773b400ae1b461c00ffc8);
+        
+
+        marker_b69847c60e75aadd72b77220d99a30c5.bindPopup(popup_93482b06426739c8fa6ff1d1fc4173ca)
+        ;
+
+        
+    
+    
+            marker_b69847c60e75aadd72b77220d99a30c5.bindTooltip(
+                `<div>
+                     Stoke-on-Trent: Black History Month Celebrations (Kwanzaa Collective UK)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f280d3b31de06922dc2f79932024cfc6 = L.marker(
+                [53.946, -1.052],
+                {}
+            ).addTo(map_da2b00400b4a31cf7b217d3fcaa5b4e0);
+        
+    
+        var popup_6c65b192b68fbf76903e4fc63864b377 = L.popup({"maxWidth": 350});
+
+        
+            var html_4af7ffe0426c270acee9067a03f4f0f1 = $(`<div id="html_4af7ffe0426c270acee9067a03f4f0f1" style="width: 100.0%; height: 100.0%;">     <b>BHM at University of York (programme)</b><br/>     <i>University of York, York</i><br/>     <span>October 2025</span><br/>     <a href="https://www.york.ac.uk/about/equality/news-events/2025/bhm/" target="_blank">Event details / source</a>     </div>`)[0];
+            popup_6c65b192b68fbf76903e4fc63864b377.setContent(html_4af7ffe0426c270acee9067a03f4f0f1);
+        
+
+        marker_f280d3b31de06922dc2f79932024cfc6.bindPopup(popup_6c65b192b68fbf76903e4fc63864b377)
+        ;
+
+        
+    
+    
+            marker_f280d3b31de06922dc2f79932024cfc6.bindTooltip(
+                `<div>
+                     York: BHM at University of York (programme)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3fbf13b32f4182dc1ed0c51ff59c1307 = L.marker(
+                [53.9551, -1.0804],
+                {}
+            ).addTo(map_da2b00400b4a31cf7b217d3fcaa5b4e0);
+        
+    
+        var popup_5315591a3a0a3a67606bb141f1a42e88 = L.popup({"maxWidth": 350});
+
+        
+            var html_2b5fa33fca5b2c3d9e97e2cb01c8ee80 = $(`<div id="html_2b5fa33fca5b2c3d9e97e2cb01c8ee80" style="width: 100.0%; height: 100.0%;">     <b>‘Objeks and Tings’ public day</b><br/>     <i>York Castle Museum, York</i><br/>     <span>(Oct 2025)</span><br/>     <a href="https://www.yorkmuseumstrust.org.uk/whats-on/events/black-history-month-objeks-and-tings-public-events/" target="_blank">Event details / source</a>     </div>`)[0];
+            popup_5315591a3a0a3a67606bb141f1a42e88.setContent(html_2b5fa33fca5b2c3d9e97e2cb01c8ee80);
+        
+
+        marker_3fbf13b32f4182dc1ed0c51ff59c1307.bindPopup(popup_5315591a3a0a3a67606bb141f1a42e88)
+        ;
+
+        
+    
+    
+            marker_3fbf13b32f4182dc1ed0c51ff59c1307.bindTooltip(
+                `<div>
+                     York: ‘Objeks and Tings’ public day
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_26a25a9f808a9808e48d7dde3f46f9b7 = L.marker(
+                [52.9228, -1.4756],
+                {}
+            ).addTo(map_da2b00400b4a31cf7b217d3fcaa5b4e0);
+        
+    
+        var popup_a6e53ecdd37eb04f66dd24b44a36ddc9 = L.popup({"maxWidth": 350});
+
+        
+            var html_8a55998ff49343b9477d468625596c87 = $(`<div id="html_8a55998ff49343b9477d468625596c87" style="width: 100.0%; height: 100.0%;">     <b>COBO: Comedy Shutdown – Derby</b><br/>     <i>Landau Forte College, Derby</i><br/>     <span>12 Oct 2025, 20:15</span><br/>     <a href="https://www.seetickets.com/event/cobo-black-history-month-special-derby/landau-forte-college-derby/3472353" target="_blank">Event details / source</a>     </div>`)[0];
+            popup_a6e53ecdd37eb04f66dd24b44a36ddc9.setContent(html_8a55998ff49343b9477d468625596c87);
+        
+
+        marker_26a25a9f808a9808e48d7dde3f46f9b7.bindPopup(popup_a6e53ecdd37eb04f66dd24b44a36ddc9)
+        ;
+
+        
+    
+    
+            marker_26a25a9f808a9808e48d7dde3f46f9b7.bindTooltip(
+                `<div>
+                     Derby: COBO: Comedy Shutdown – Derby
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2e32a71705ae5a15ac7c1830d02e116f = L.marker(
+                [52.5874, -2.1281],
+                {}
+            ).addTo(map_da2b00400b4a31cf7b217d3fcaa5b4e0);
+        
+    
+        var popup_90900ac14be4ca59f7f2daf77dc40c88 = L.popup({"maxWidth": 350});
+
+        
+            var html_e98d218b53318758804f072d3d6ddeee = $(`<div id="html_e98d218b53318758804f072d3d6ddeee" style="width: 100.0%; height: 100.0%;">     <b>COBO: BHM Special – Wolverhampton</b><br/>     <i>Wolverhampton Arts Centre, Wolverhampton</i><br/>     <span>5 Oct 2025</span><br/>     <a href="https://www.eventbrite.co.uk/e/cobo-comedy-shutdown-black-history-month-special-wolverhampton-tickets-1567995830739" target="_blank">Event details / source</a>     </div>`)[0];
+            popup_90900ac14be4ca59f7f2daf77dc40c88.setContent(html_e98d218b53318758804f072d3d6ddeee);
+        
+
+        marker_2e32a71705ae5a15ac7c1830d02e116f.bindPopup(popup_90900ac14be4ca59f7f2daf77dc40c88)
+        ;
+
+        
+    
+    
+            marker_2e32a71705ae5a15ac7c1830d02e116f.bindTooltip(
+                `<div>
+                     Wolverhampton: COBO: BHM Special – Wolverhampton
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c4d60dc1a59f6ef9dae4df7b209bb09e = L.marker(
+                [52.586, -2.125],
+                {}
+            ).addTo(map_da2b00400b4a31cf7b217d3fcaa5b4e0);
+        
+    
+        var popup_8a040ac81c2b31e2874c9d5f76ad724a = L.popup({"maxWidth": 350});
+
+        
+            var html_6ab53492474e3cc4792e39a9e5751f68 = $(`<div id="html_6ab53492474e3cc4792e39a9e5751f68" style="width: 100.0%; height: 100.0%;">     <b>BHM Friday Lates (takeover)</b><br/>     <i>Wolverhampton Art Gallery, Wolverhampton</i><br/>     <span>31 Oct 2025, 18:00–21:00</span><br/>     <a href="https://www.facebook.com/WolverhamptonArtGallery/posts/join-us-on-friday-31st-october-for-our-next-friday-lates-31st-october-6-9pm-wolv/1415478580579214/" target="_blank">Event details / source</a>     </div>`)[0];
+            popup_8a040ac81c2b31e2874c9d5f76ad724a.setContent(html_6ab53492474e3cc4792e39a9e5751f68);
+        
+
+        marker_c4d60dc1a59f6ef9dae4df7b209bb09e.bindPopup(popup_8a040ac81c2b31e2874c9d5f76ad724a)
+        ;
+
+        
+    
+    
+            marker_c4d60dc1a59f6ef9dae4df7b209bb09e.bindTooltip(
+                `<div>
+                     Wolverhampton: BHM Friday Lates (takeover)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
